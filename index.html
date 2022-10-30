@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV Screener</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="icon" href="favicon/cv.ico">
+    <!-- favicon ends -->
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid col-lg-4 mx-auto">
+        <!-- alert -->
+        <div class="container-fluid col-lg-4 fixed-top text-center" id="alert" style="z-index: 1;"></div>
+        
+        <h1 class="m-3 text-center">📄 CV Screener</h1>
+        <hr>
+        <h4 class="m-3 text-center">Candidate Applications</h4>
+        <h5 class="m-3 text-center"><em>(For <strong>Data Scientist</strong> role)</em></h5>
+        <hr>
+        <div class="text-center" id="image"></div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle table-borderless table-borderless" id="table"></table>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="button" id="nextBtn">Next Profile 👉</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
