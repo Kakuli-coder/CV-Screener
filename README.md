@@ -1,4 +1,4 @@
-# 📄 CV-Screener
+# 📄 CV Screener
 
 A CV Screener website that displays '*Candidate Applications*' applying for *Data Scientist* jobs. <br />
 
